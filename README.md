@@ -81,7 +81,7 @@ Dag after the dependencies are set:
 
 Operators:
 
-![alt text](./DAG_before.png)
+![alt text](./operators.png)
 
 
 **Data Pipeline** 
