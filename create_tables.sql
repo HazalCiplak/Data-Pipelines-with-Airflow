@@ -77,7 +77,7 @@ CREATE TABLE public.staging_songs (
 );
 
 CREATE TABLE public.users (
-	userid int4 NOT NULL,
+	userid int4,
 	first_name varchar(256),
 	last_name varchar(256),
 	gender varchar(256),
