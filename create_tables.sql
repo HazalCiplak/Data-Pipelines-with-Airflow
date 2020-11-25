@@ -19,6 +19,7 @@ CREATE TABLE public.songplays (
 	CONSTRAINT songplays_pkey PRIMARY KEY (playid)
 );
 
+
 CREATE TABLE public.songs (
 	songid varchar(256) NOT NULL,
 	title varchar(256),
@@ -83,8 +84,3 @@ CREATE TABLE public.users (
 	"level" varchar(256),
 	CONSTRAINT users_pkey PRIMARY KEY (userid)
 );
-
-
-
-
-
